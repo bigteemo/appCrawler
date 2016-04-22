@@ -11,4 +11,8 @@ import scrapy
 class AppstoreItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    rank = scrapy.Field()
+    name = scrapy.Field()
+    category = scrapy.Field()
+    size = scrapy.Field()
     pass
